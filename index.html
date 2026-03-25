@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Desarrollador Frontend Senior" />
+  <title>Portfolio | Frontend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body
+  class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans antialiased selection:bg-blue-500 selection:text-white">
+  <a href="#main-content"
+    class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 dark:focus:ring-offset-gray-900">
+    Saltar al contenido principal
+  </a>
+
+  <header id="main-header"
+    class="fixed top-0 w-full z-40 transition-shadow duration-300 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-transparent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0 flex items-center">
+          <a href="#"
+            class="text-2xl font-bold tracking-tighter text-blue-600 dark:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+            aria-label="Inicio">
+            Dev<span class="text-gray-900 dark:text-white">Portfolio</span>
+          </a>
+        </div>
+
+        <nav class="hidden md:flex space-x-8 items-center" aria-label="Navegación principal">
+          <a href="#about"
+            class="nav-link text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1">Sobre
+            mí</a>
+          <a href="#projects"
+            class="nav-link text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1">Proyectos</a>
+          <a href="#contact"
+            class="nav-link text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1">Contacto</a>
+
+          <button
+            class="theme-toggle-btn p-2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-full transition-colors"
+            aria-label="Alternar tema oscuro">
+            <svg class="theme-toggle-light-icon hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+            <svg class="theme-toggle-dark-icon hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+          </button>
+        </nav>
+
+        <div class="flex items-center md:hidden gap-2">
+          <button
+            class="theme-toggle-btn p-2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-full"
+            aria-label="Alternar tema oscuro">
+            <svg class="theme-toggle-light-icon-mobile hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+            <svg class="theme-toggle-dark-icon-mobile hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+          </button>
+          <button id="mobile-menu-button" type="button"
+            class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+            aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Abrir menú principal</span>
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile-menu"
+      class="hidden md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 shadow-lg">
+      <nav class="px-2 pt-2 pb-3 space-y-1 sm:px-3" aria-label="Navegación móvil">
+        <a href="#about"
+          class="nav-link-mobile block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">Sobre
+          mí</a>
+        <a href="#projects"
+          class="nav-link-mobile block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">Proyectos</a>
+        <a href="#contact"
+          class="nav-link-mobile block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="pt-16">
+
+    <section id="hero" class="min-h-[85vh] flex items-center bg-white dark:bg-gray-900 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 animate-fade-in-up w-full">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+          
+          <!-- Contenido de Texto (Izquierda) -->
+          <div class="flex-1 text-center lg:text-left">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-4">
+              Hola, soy <span class="text-blue-600 dark:text-blue-400" id="hero-name">Desarrollador Senior</span>
+            </h1>
+            <h2 id="hero-role" class="text-2xl sm:text-3xl font-bold text-gray-700 dark:text-gray-300 mb-2">
+              Desarrollador Frontend
+            </h2>
+            <p id="hero-tagline" class="mt-4 text-xl sm:text-2xl text-gray-500 dark:text-gray-400 max-w-3xl mb-8 mx-auto lg:mx-0">
+              Construyo interfaces web modernas, accesibles y de alto rendimiento utilizando las últimas tecnologías.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a href="#projects" class="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900 transition-colors shadow-sm">
+                Ver proyectos
+              </a>
+              <a href="#contact" class="inline-flex justify-center items-center px-8 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-md text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900 transition-colors">
+                Contactar
+              </a>
+            </div>
+          </div>
+
+          <!-- Imagen de Perfil (Derecha) -->
+          <div class="flex-shrink-0 flex justify-center lg:justify-end">
+            <div class="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
+              <img src="/src/data/IMG-20211026-WA0068.jpeg" alt="Foto de perfil" class="object-cover w-full h-full rounded-2xl shadow-xl border-[10px] border-blue-600 dark:border-blue-400" loading="eager" />
+              <!-- Decoración opcional -->
+              <div class="absolute -inset-4 border-2 border-blue-600/30 dark:border-blue-400/30 rounded-3xl -z-10 rotate-3 transition-transform duration-300 hover:rotate-6"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 bg-gray-50 dark:bg-gray-800/50 section-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center reveal-on-scroll">
+          <h2 class="text-base text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase">Sobre mí</h2>
+          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+            Pasión por la excelencia frontend
+          </p>
+          <p id="about-description" class="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 lg:mx-auto">
+            Con más de 10 años de experiencia, me especializo en desarrollar aplicaciones web escalables. Aplico
+            metodologías ágiles, accesibilidad estricta (WCAG) y optimización de rendimiento (SEO & WPO).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-white dark:bg-gray-900 section-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="reveal-on-scroll mb-12">
+          <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Proyectos Destacados</h2>
+          <p class="mt-4 text-lg text-gray-500 dark:text-gray-400">Una selección de mis trabajos más recientes.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+          <!-- Projects injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800/50 section-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center reveal-on-scroll">
+          <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white mb-6">Hablemos</h2>
+          <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+            ¿Tienes un proyecto en mente o quieres que colaboremos? Contáctame a través de LinkedIn o directamente por
+            correo electrónico.
+          </p>
+          <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="https://www.linkedin.com/in/jose-antonio-lopez-palma/" target="_blank" rel="noopener noreferrer"
+              class="w-full sm:w-auto inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#0A66C2] hover:bg-[#004182] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0A66C2] dark:focus:ring-offset-gray-900 transition-colors shadow-sm gap-2">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+              Conectar en LinkedIn
+            </a>
+            <a href="mailto:josantlop01@gmail.com"
+              class="w-full sm:w-auto inline-flex justify-center items-center px-8 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-md text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900 transition-colors gap-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                </path>
+              </svg>
+              Enviar correo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white dark:bg-gray-900 py-12 border-t border-gray-200 dark:border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 dark:text-gray-400">
+      <p>&copy; 2026 José Antonio López Palma. All rights reserved.</p>
+    </div>
+  </footer>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
