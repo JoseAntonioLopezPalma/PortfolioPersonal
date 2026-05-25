@@ -23,6 +23,14 @@ export const portfolioData = {
       tech: ["JavaScript Vanilla", "HTML5", "CSS", "Python", "Testing QA", "SQLite", "FastAPI", "Pandas", "Uvicorn"],
       repo: "https://github.com/JoseAntonioLopezPalma/Cyber-Inventario",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+
+    {
+      title: "Restaurante",
+      description: "Página web de restaurante elegante, totalmente responsive y accesible, enfocada en buenas prácticas de frontend, HTML semántico y diseño UI/UX premium.",
+      tech: ["HTML5", "CSS", "Testing QA", "Git"],
+      repo: "https://github.com/JoseAntonioLopezPalma/Restaurante",
+      image: "RestauranteJose.png"
     }
   ]
 };
