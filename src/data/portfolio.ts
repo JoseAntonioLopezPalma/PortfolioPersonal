@@ -30,7 +30,7 @@ export const portfolioData = {
       description: "Página web de restaurante elegante, totalmente responsive y accesible, enfocada en buenas prácticas de frontend, HTML semántico y diseño UI/UX premium.",
       tech: ["HTML5", "CSS", "Testing QA", "Git"],
       repo: "https://github.com/JoseAntonioLopezPalma/Restaurante",
-      image: "./RestauranteJose.png"
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
 };
